@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Carousel</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!-- HTML to display the pictures -->
+    <div class="carousel">
+        <img src="images/bird01.jpg" alt="" id="bigpic" />
+        <div class="thumbs">
+            <img src="images/left-icon.png" alt="Next" onclick="calcslide(1)">
+            &nbsp;
+            <img src="images/bird01.jpg" alt="" onclick="showbig(this.src)" />
+            <img src="images/bird02.jpg" alt="" onclick="showbig(this.src)" />
+            <img src="images/bird03.jpg" alt="" onclick="showbig(this.src)" />
+            <img src="images/bird04.jpg" alt="" onclick="showbig(this.src)" />
+            <img src="images/bird05.jpg" alt="" onclick="showbig(this.src)" />
+            &nbsp;
+            <img src="images/right-icon.png" alt="Next" onclick="calcslide(1)">
+        </div>
+        <!-- End thumbs -->
+    </div>
+    <!-- End carousel -->
+
+    <!-- js -->
+    <script src="script/carousel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lastName_STUDENT-ID_lab6</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="plr-15">
+
+    </header>
+
+    <section class="plr-15">
+        <form action="https://formspree.io/" method="post">
+            <fieldset class="fieldset-1">
+                <legend>Your Personal Information:</legend>
+
+                <div>
+                    <label>Full Name*:</label>
+                    <input type="text" placeholder="First and last name" required>
+                </div>
+
+                <div>
+                    <label>Email Address*:</label>
+                    <input type="text" placeholder="someone@somewhere.com" required>
+                </div>
+
+                <div>
+                    <label>Current Study:</label>
+                    <input type="text" value="Douglas College" required>
+                </div>
+
+                <div>
+                    <label>Age:</label>
+                    <input type="number" value="20" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="fieldset-2">
+                <legend>Your Quiz:</legend>
+
+                <div>
+                    <label>1. What is the result of the following equation?</label> <br /> <br />
+                    2<sup>2</sup>x5= &nbsp; <input type="text">
+                </div>
+
+                <div>
+                    <label>2. What does acronym W3C stand for?</label>
+                    <select>
+                        <option value="1">3rd World War Coalition</option>
+                        <option value="2">World Wide WarCraft</option>
+                        <option value="3">World Wide Web Consortium</option>
+                        <option value="4">I'm afraid to answer it</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>3. Css is an abbreviation of <input type="text"> style sheet</label>
+                </div>
+
+                <div>
+                    <label>4. Select all the (scripting) languages we learn in CSIS 1280? </label> <br />
+                    <label>
+                        <input type="checkbox">
+                        HTML
+                    </label> &nbsp;
+                    <label>
+                        <input type="checkbox">
+                        CSS
+                    </label> &nbsp;
+                    <label>
+                        <input type="checkbox">
+                        JavaScript
+                    </label> &nbsp;
+                    <label>
+                        <input type="checkbox">
+                        PHP
+                    </label> &nbsp;
+                    <label>
+                        <input type="checkbox">
+                        C#
+                    </label> &nbsp;
+                    <label>
+                        <input type="checkbox">
+                        Java
+                    </label> &nbsp;
+                </div>
+
+                <div>
+                    <label>5. Consider the picture of a DOM structure below. Which of the following selector
+                        <b>CANNOT</b> be used to select all the < p> elements? </label>
+                    <div class="img-container">
+                        <div class="radios">
+                            <label>
+                                <input type="radio">
+                                p
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                h1 ~ p
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                aritcle p
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                aritcle > p
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                h1 + p
+                            </label>
+                        </div>
+                        <div class="imgs">
+                            <img src="img/img1.jpg" alt="" width="200">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label>6. Consider the picture of a DOM structure below. Which of the following selector
+                        <b>CAN</b> be used to select all the identified < li> elements? </label>
+                    <div class="img-container">
+                        <div class="radios">
+                            <label>
+                                <input type="radio">
+                                li
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                li:nth-child(2n+1)
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                ul > li:(2n+1)
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                ul > li
+                            </label> <br />
+                            <label>
+                                <input type="radio">
+                                ul > li(2n+1)
+                            </label>
+                        </div>
+                        <div class="imgs">
+                            <img src="img/img2.jpg" alt="" width="200">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label>7. Douglas college and the Coquitlam campus was named after the former Governor and
+                        Liutenant-Governor of British Columbia. What are their names? <textarea rows="2"
+                            style="vertical-align: top;"></textarea></label>
+                </div>
+            </fieldset>
+
+            <div class="form-btns">
+                <button type="submit">Submit My Quiz</button>
+                <button type="reset">Cancel</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="plr-15">
+    </footer>
+</body>
+
+</html>
